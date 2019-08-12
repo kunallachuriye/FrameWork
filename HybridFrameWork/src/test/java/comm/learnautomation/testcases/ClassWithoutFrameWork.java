@@ -26,6 +26,12 @@ public class ClassWithoutFrameWork {
 		}
 		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("ABC");
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 }

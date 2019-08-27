@@ -14,24 +14,13 @@ public class ClassWithoutFrameWork {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Kunal\\Eclipse\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.google.com");
+		driver.get("https://freecrm.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//a[text()='Gmail']")).click();
-		driver.findElement(By.xpath(
-				"//ul[@class='h-c-header__cta-list header__nav--ltr']//a[contains(text(),'Sign in') and @class='h-c-header__nav-li-link ']"))
-				.click();
-		for (String winHandle : driver.getWindowHandles()) {
-			driver.switchTo().window(winHandle);
-		}
-		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("ABC");
-		driver.findElement(By.xpath("//span[text()='Next']")).click();
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
+		driver.findElement(By.xpath("//span[text()='Log In']/parent::a")).click();
+		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("ABC");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("ABC");
+		driver.findElement(By.xpath("//div[text()='Login']")).click();
+		driver.quit();
 	}
 }

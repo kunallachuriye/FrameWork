@@ -10,11 +10,19 @@ import comm.learnautomation.utility.BrowserFactory;
 public class LogInTestCrm {
 	WebDriver driver;
 
+	public void setup() {
+		driver = BrowserFactory.startApplication(driver, "chrome", "https://freecrm.com");
+	}
+
 	@Test
 	public void loginApp() {
-		driver = BrowserFactory.startApplication(driver, "chrome", "https://freecrm.com");
+
 		CrmLogInPage logInPage = PageFactory.initElements(driver, CrmLogInPage.class);
 		logInPage.logInCrm("Abc", "Xyz");
+
+	}
+
+	public void teardown() {
 		BrowserFactory.quitBrowser(driver);
 	}
 

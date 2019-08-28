@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48499" started-at="2019-08-27T12:58:11Z" finished-at="2019-08-27T12:59:00Z">
+  <suite name="Default suite" duration-ms="34315" started-at="2019-08-28T10:37:04Z" finished-at="2019-08-28T10:37:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48499" started-at="2019-08-27T12:58:11Z" finished-at="2019-08-27T12:59:00Z">
-      <class name="comm.learnautomation.testcases.ClassWithoutFrameWork">
-        <test-method status="PASS" signature="login()[pri:0, instance:comm.learnautomation.testcases.ClassWithoutFrameWork@ea4a92b]" name="login" duration-ms="48478" started-at="2019-08-27T08:58:12Z" finished-at="2019-08-27T08:59:00Z">
+    <test name="Default test" duration-ms="34315" started-at="2019-08-28T10:37:04Z" finished-at="2019-08-28T10:37:38Z">
+      <class name="comm.learnautomation.testcases.LogInTestCrm">
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:comm.learnautomation.testcases.LogInTestCrm@357246de]" name="loginApp" duration-ms="34290" started-at="2019-08-28T06:37:04Z" finished-at="2019-08-28T06:37:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- comm.learnautomation.testcases.ClassWithoutFrameWork -->
+        </test-method> <!-- loginApp -->
+      </class> <!-- comm.learnautomation.testcases.LogInTestCrm -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -2,15 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34315" started-at="2019-08-28T10:37:04Z" finished-at="2019-08-28T10:37:38Z">
+  <suite name="Default suite" duration-ms="34733" started-at="2019-08-28T11:05:24Z" finished-at="2019-08-28T11:05:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34315" started-at="2019-08-28T10:37:04Z" finished-at="2019-08-28T10:37:38Z">
+    <test name="Default test" duration-ms="34733" started-at="2019-08-28T11:05:24Z" finished-at="2019-08-28T11:05:59Z">
       <class name="comm.learnautomation.testcases.LogInTestCrm">
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:comm.learnautomation.testcases.LogInTestCrm@357246de]" name="loginApp" duration-ms="34290" started-at="2019-08-28T06:37:04Z" finished-at="2019-08-28T06:37:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:comm.learnautomation.testcases.LogInTestCrm@47f37ef1]" name="setup" is-config="true" duration-ms="14538" started-at="2019-08-28T07:05:24Z" finished-at="2019-08-28T07:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:comm.learnautomation.testcases.LogInTestCrm@47f37ef1]" name="loginApp" duration-ms="19094" started-at="2019-08-28T07:05:38Z" finished-at="2019-08-28T07:05:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:comm.learnautomation.testcases.LogInTestCrm@47f37ef1]" name="teardown" is-config="true" duration-ms="1079" started-at="2019-08-28T07:05:58Z" finished-at="2019-08-28T07:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- comm.learnautomation.testcases.LogInTestCrm -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

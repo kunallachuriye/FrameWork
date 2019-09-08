@@ -6,15 +6,4 @@
       <class name="comm.learnautomation.testcases.LogInTestCrm"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="comm.learnautomation.testcases.LogInTestCrm">
-        <methods>
-          <include name="loginApp"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- comm.learnautomation.testcases.LogInTestCrm -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

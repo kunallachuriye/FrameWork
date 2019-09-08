@@ -22,7 +22,7 @@ public class BaseClass {
 
 	@BeforeClass
 	public void setup() {
-		driver = BrowserFactory.startApplication(driver, cnfg.getConfigData("Browser"), cnfg.getConfigData("qaUrl"));
+		driver = BrowserFactory.startApplication(driver, cnfg.getBrowser(), cnfg.getStagingUrl());
 	}
 
 	@AfterClass

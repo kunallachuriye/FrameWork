@@ -22,4 +22,12 @@ public class ConfigDataProvider {
 	public String getConfigData(String key) {
 		return pro.getProperty(key);
 	}
+
+	public String getBrowser() {
+		return pro.getProperty("Browser");
+	}
+
+	public String getStagingUrl() {
+		return pro.getProperty("qaUrl");
+	}
 }

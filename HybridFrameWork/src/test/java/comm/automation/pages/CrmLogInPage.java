@@ -17,7 +17,7 @@ public class CrmLogInPage {
 	WebElement LogInUserName;
 	@FindBy(xpath = "//input[@type='password']")
 	WebElement LogInPassword;
-	@FindBy(xpath = "//div[text()='Login']")
+	@FindBy(xpath = "//div[text()='Logi']")
 	WebElement LogInButton;
 
 	public void logInCrm(String uname, String pwd) {

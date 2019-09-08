@@ -12,6 +12,7 @@
         <methods>
           <include name="loginApp"/>
           <include name="teardownMethod"/>
+          <include name="teardown"/>
           <include name="setupSuite"/>
           <include name="setup"/>
         </methods>

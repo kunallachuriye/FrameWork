@@ -11,7 +11,7 @@ public class LogInTestCrm extends BaseClass {
 
 	@Test
 	public void loginApp() {
-		ExcelDataProvider excel = new ExcelDataProvider();
+		
 		CrmLogInPage logInPage = PageFactory.initElements(driver, CrmLogInPage.class);
 		logInPage.logInCrm(excel.getStringData("Log", 0, 0), excel.getStringData("Log", 0, 1));
 
